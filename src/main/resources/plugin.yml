@@ -1,0 +1,12 @@
+name: ClearChat
+version: '${project.version}'
+main: net.daechler.clearchat.ClearChat
+api-version: 1.19
+authors: [Daechler]
+description: Clear the chat for all players.
+commands:
+  clearchat:
+    description: Permission to use /clearchat
+    usage: /clearchat
+    permission: clearchat.use
+    aliases: cc
