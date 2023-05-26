@@ -6,7 +6,7 @@ authors: [Daechler]
 description: Clear the chat for all players.
 commands:
   clearchat:
-    description: Permission to use /clearchat
+    description: Clear the chat for all players.
+    aliases: cc
     usage: /clearchat
     permission: clearchat.use
-    aliases: cc
